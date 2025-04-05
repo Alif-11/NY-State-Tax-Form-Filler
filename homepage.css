@@ -1,0 +1,98 @@
+#page-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-column-left {
+  height: 100%;
+  width: 30%;
+  display: inline;
+  float: left;
+  background-color: #FF13F0;
+  color: rebeccapurple;
+}
+
+#page-column-right {
+  height: 100%;
+  width: 45%;
+  display: inline;
+  float: left;
+  background-color: #4A412A;
+  color: springgreen
+}
+
+#column-left-menu {
+  padding-left: 0px;
+  margin-bottom: 20px;
+}
+
+#column-left-menu-top-link {
+  margin-bottom: 70px;
+}
+
+#column-right-subheading {
+  color: cornflowerblue;
+  margin-bottom: 30px;
+}
+
+#tax-form-button {
+  background-color: tomato;
+  color: turquoise;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  padding: 70px;
+  font-size: 30px;
+}
+
+#popup-modal-screen {
+  display: none;
+  /*We keep this line of css in and use Javascript 
+  to manipulate it.*/
+  position: fixed;
+  font-size: 40px;
+  color: skyblue;
+  z-index: 1;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.49);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#popup-modal-content {
+  position: relative;
+  top: 30vh;
+  left: 40vw;
+  background-color: white;
+  width: 20vw;
+  min-height: 20vh;
+}
+
+#close-popup-button {
+  margin-top: 70px;
+  margin-left: 100px;
+  background-color: lightcyan;
+  color: slategrey;
+}
+
+.column-right-heading {
+  text-align: center;
+  margin-block-start: 4.81px;
+}
+
+.unclickable-link {
+  text-decoration: underline;
+  color: burlywood;
+  list-style: none;
+}
+
+.clickable-link {
+  color: burlywood;
+}
+
+body {
+  margin: 0;
+}
