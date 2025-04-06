@@ -5,7 +5,7 @@ function closePopup() {
 
 function openPopup() {
   const popup_modal_screen = document.getElementById("popup-modal-screen");
-  popup_modal_screen.style.display = "block";
+  popup_modal_screen.style.display = "flex";
 }
 
 const closePopupButton = document.getElementById("close-popup-button");
